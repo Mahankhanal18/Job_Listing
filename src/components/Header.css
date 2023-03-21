@@ -1,0 +1,11 @@
+.header {
+  height: 150px;
+  background-image: url("../assets/bg-header-desktop.svg");
+  background-color: var(--primary-color);
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .header {
+    background-image: url("../assets/bg-header-mobile.svg");
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(180, 29%, 50%);
+  --neutral-one: hsl(180, 52%, 96%);
+  --neutral-two: hsl(180, 31%, 95%);
+  --neutral-three: hsl(180, 8%, 52%);
+  --neutral-four: hsl(180, 14%, 20%);
+  --font: "League Spartan", sans-serif;
+}
+
+.App {
+  background-color: var(--neutral-two);
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .App {
+    background-color: var(--neutral-two);
+    height: 100%;
+    padding-bottom: 50px;
+  }
+}
